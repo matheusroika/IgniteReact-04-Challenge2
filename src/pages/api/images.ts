@@ -26,6 +26,7 @@ export default async function handler(
   res: NextApiResponse
 ): Promise<void> {
   if (req.method === 'POST') {
+    console.log(req.body)
     const { url, title, description } = req.body;
 
     return client

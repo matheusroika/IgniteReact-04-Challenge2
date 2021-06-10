@@ -31,6 +31,14 @@ export const theme = extendTheme({
         colorScheme: 'orange',
       },
     },
+    Modal: {
+      sizes: {
+        custom: {
+          maxHeight: '600px',
+          maxWidth: '900px',
+        },
+      },
+    },
   },
   styles: {
     global: {
